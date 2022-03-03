@@ -11,6 +11,7 @@ module.exports = {
     new HtmlWebpackPlugin({ filename: 'index.html', template: 'src/html/index.html' }),
     new HtmlWebpackPlugin({ filename: 'login/index.html', template: 'src/html/login/index.html' }),
     new HtmlWebpackPlugin({ filename: 'dashboard/index.html', template: 'src/html/dashboard/index.html' }),
+    new HtmlWebpackPlugin({ filename: 'openaccount/index.html', template: 'src/html/openaccount/index.html' }),
     new MiniCssExtractPlugin({ filename: 'style.css' }),
     new webpack.HotModuleReplacementPlugin()
   ],
