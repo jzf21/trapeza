@@ -4,3 +4,12 @@
 @use './vendor';
 @use './abstracts'; 
 @use './pages';
+
+body {
+    background-image: url(../assets/images/bg.jpg);
+}
+.container-xxl {
+    background-color: rgba(0, 0, 0, 0.37);
+    z-index: 100;
+}
+
