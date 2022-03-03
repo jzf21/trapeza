@@ -1,0 +1,17 @@
+#dashboard-sidebar-collpased {
+  display: none;
+}
+#dashboard-sidebar-expanded {
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  #dashboard-sidebar-collpased {
+    display: block;
+  }
+  #dashboard-sidebar-expanded {
+    display: none;
+  }
+  body {
+    background-color: yellow;
+  }
+}
