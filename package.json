@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
+    "start": "node src/index.js",
     "build": "webpack",
     "dev": "webpack-dev-server --mode development",
     "heroku-postbuild": "echo Skip build on Heroku"
